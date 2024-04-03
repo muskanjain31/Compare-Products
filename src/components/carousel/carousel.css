@@ -1,0 +1,42 @@
+/* .card-title {
+    font-weight: bold;
+    margin-top: 65px;
+} */
+.card-with-background {
+    position: relative;
+    border-radius: 20px; /* Adjust the value to control the curve */
+    overflow: hidden; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1; /* Ensure the overlay is above the background image */
+}
+
+
+ .card-body {
+    position: relative;
+    z-index: 2;
+ } 
+
+/* .pb-5 {
+padding-top: 3rem;
+padding-bottom: 3rem !important;
+}
+.img-container {
+max-width: 20px; 
+margin: 0 auto;
+}
+.carousel-caption {
+    margin-bottom: 30rem;
+    font-size: 30px;
+  }
+  .carousel-text h3 {
+    font-size: 50px; 
+  }
+   */
