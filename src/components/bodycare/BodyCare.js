@@ -18,19 +18,18 @@ const Category = () => {
 
   return (
     <>
-      <h1 className="text-centre text-info">Let's Compare</h1>
       <div className="container-fluid mx-2">
         <div className="row mt-5 mx-2">
           <div className="col-md-3 position-fixed">
             {/* Add onClick handlers to the buttons */}
             <button
-              className="btn btn-warning w-75 mb-4"
+              className="btn4 btn-warning w-75 mb-4"
               onClick={() => scrollToRef(BodylotionRef)}
             >
               Body Lotion
             </button>
             <button
-              className="btn btn-warning w-75 mb-4"
+              className="btn4 btn-warning w-75 mb-4"
               onClick={() => scrollToRef(BodyscrubRef)}
             >
               Body Scrub

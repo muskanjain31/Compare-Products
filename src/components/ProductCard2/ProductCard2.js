@@ -5,19 +5,17 @@ import './ProductCard2.css';
 function ProductCard2({ product2, compareList, setCompareList }) {
   const navigate = useNavigate();
 
-  const handleAddToCompare = () => {
-    if (!product2) {
-      console.error('Product is undefined'); // Handle the case where product2 is undefined
-      return;
-    }
+  // const handleAddToCompare = () => {
+  //   if (!product2) {
+  //     console.error('Product is undefined');
+  //     return;
+  //   }
 
-    // Add the product to the compare list
-    const updatedCompareList = [...compareList, product2];
-    setCompareList(updatedCompareList);
+  //   const updatedCompareList = [...compareList, product2];
+  //   setCompareList(updatedCompareList);
 
-    // Navigate to the "Add to Compare" page
-    navigate('/compare');
-  };
+  //   navigate('/compare');
+  // };
 
   return (
     <div className="card mb-4">
@@ -27,8 +25,10 @@ function ProductCard2({ product2, compareList, setCompareList }) {
           <img src={product2.image} className="card-img-top" alt={product2.name} />
           <div className="card-body">
             <h5 className="card-title">{product2.name}</h5>
+            <span className="short-name">{product2.shortName}</span>
+            <span className="full-name">{product2.name}</span>
             <p className="card-title">{product2.description}</p>
-            <button className="btn btn-primary" onClick={handleAddToCompare}>Add to Compare</button>
+            <button className="btn btn-primary" >Select</button>
           </div>
         </>
       )}

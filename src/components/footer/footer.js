@@ -1,5 +1,8 @@
 import React from 'react';
 import './footer.css';
+import navIcon1 from '../../assets/images/linkedin1.svg';
+import navIcon2 from '../../assets/images/github1.svg';
+import navIcon3 from '../../assets/images/instagram1.svg';
 
 function Footer() {
   return (
@@ -30,18 +33,18 @@ function Footer() {
                 <div className="footer-center">
     
                     <div>
-                        <i className="fa fa-map-marker"></i>
-                        <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+                        <div className="fa fa-map-marker"></div>
+                        <p><span>Gittikhadan</span> RCOEM , Nagpur</p>
                     </div>
     
                     <div>
-                        <i className="fa fa-phone"></i>
-                        <p>+1.555.555.5555</p>
+                        <div className="fa fa-phone"></div>
+                        <p>+91996179889</p>
                     </div>
     
                     <div>
-                        <i className="fa fa-envelope"></i>
-                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                        <div className="fa fa-envelope"></div>
+                        <p><a href="mailto:muskanjain.3120@gmail.com">muskanjain.3120@gmail.com</a></p>
                     </div>
     
                 </div>
@@ -49,16 +52,14 @@ function Footer() {
                 <div className="footer-right">
     
                     <p className="footer-company-about">
-                        <span>About the company</span>
-                        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-                    </p>
+                        <span>About Compare Products</span>
+                        Compare Products is your go-to platform for unbiased beauty product comparisons, helping you make informed choices for your skincare, haircare, and body care needs. </p>
     
                     <div className="footer-icons">
     
-                        <a href="#"><i className="fa fa-facebook"></i></a>
-                        <a href="#"><i className="fa fa-twitter"></i></a>
-                        <a href="#"><i className="fa fa-linkedin"></i></a>
-                        <a href="#"><i className="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muskan-jain-00517222b/"><img src={navIcon1} alt="" /></a>
+                    <a  href="https://github.com/muskanjain31" className= 'Icon2'><img src={navIcon2} alt="" className="navIcon2"/></a>
+                    <a href="https://www.instagram.com/muskanjain_3/"><img src={navIcon3} alt="" /></a>
     
                     </div>
     

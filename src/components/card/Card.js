@@ -1,27 +1,10 @@
-// import React from "react";
-// import contacts from "../../Contacts";
-// import "./card.css";
-
-// function Card(props) {
-//     return (
-//         <div key={props.id} className="ProductCard">
-//             <img src={props.img} alt="image" className="ProductImage" />
-//             <h3 className="ProductName">{props.name}</h3>
-//             <div className="buttonPosition">
-//                 <button className="ProductButton" type="getin">
-//                     Get in
-//                 </button>
-//             </div>
-//         </div>
-//     );
-// }
-// export default Card;
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./card.css";
 
 function Card(props) {
+  
   const navigate = useNavigate();
 
   const handleClick = (category) => {
@@ -41,12 +24,12 @@ function Card(props) {
         route = "/";
     }
     // Navigate to the determined route
-    navigate.push(route);
+    navigate(route);
   };
 
   return (
     <div key={props.id} className="ProductCard">
-      <img src={props.img} alt="image" className="ProductImage" />
+      <img src={props.img} alt="image" className="ProductImage" onClick={() => handleClick(props.category)} />
       <h3 className="ProductName">{props.name}</h3>
       <div className="buttonPosition">
         {/* Pass the category as an argument to handleClick */}

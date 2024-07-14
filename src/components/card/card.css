@@ -1,8 +1,6 @@
-.App1{
-    display: grid;
-    grid-template-columns: 500px 500px 500px;
-    justify-content: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet');
+
+
 .ProductImage{
     width: 400px;
     margin-top: 9rem;
@@ -31,6 +29,12 @@
     padding: 10px 20px 97px 22px;
     font-weight: bold;  
     transition: 0.5s  ; /* Add padding to make the text more readable */
+    font-size: 35px;
+    color: #080808; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(234, 228, 228, 0.7);
+    font-family: "Prata", serif;
+    font-weight: 800;
+    font-style: bold;
 }
 .ButtonPosition{
     position: absolute;
@@ -40,7 +44,7 @@
     border: 20px;
 }
 .ProductButton {
-    background-color: #c14a35; /* Set button background color to brown */
+    background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
     color: white; /* Set button text color to white */
     padding: 10px 20px; /* Add padding to the button */
     border: 10px; 
@@ -49,5 +53,5 @@
 }
 
 .ProductButton:hover {
-    background-color: #862c1d; 
+    background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
 }
