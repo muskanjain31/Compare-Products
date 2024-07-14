@@ -151,32 +151,32 @@ const Shampoo=[
     {
     id:1,
     name:"Buds & Berries Rice Water Nourishing Shampoo ",
-    image: require('./assets/images/ProductImages/Images2/shampoo/Buds & Berries Rice Water and Chia Seeds Nourishing Shampoo  Strengthens Hair, 120 Hours of Conditioning  Sulfate-Free, Paraben-Free, Silicone-Free (300 ml).webp'),
+    image: require('./assets/images/ProductImages/Images2/shampoo/curly-hair-shampoo.avif'),
     description: "Buds & Berries Rice Water and Chia Seeds Nourishing Shampoo"
 },
 {
     id:2,
-    name:"The Skin Story Anti Dandruff Shampoo ",
-    image: require('./assets/images/ProductImages/Images2/shampoo/The Skin Story Anti Dandruff Shampoo with Saniscalp & Argan Oil 3-in-1 Cleansing, Dandruff Control, Moisturizes for Shiny, Silky Hair Paraben Free 190ml.webp'),
-    description: "The Skin Story Anti Dandruff Shampoo with Saniscalp"
+    name:"Plum Shampoo ",
+    image: require('./assets/images/ProductImages/Images2/shampoo/plum Shampoo.jpeg'),
+    description: "Plum Shampoo"
 },
 {
     id:3,
-    name:"Dove Men+Care Thick & Strong 2in1 Shampoo+Conditioner, 340 ml",
-    image: require('./assets/images/ProductImages/Images2/shampoo/Dove Men+Care Thick & Strong 2in1 Shampoo+Conditioner, 340 ml.webp'),
-    description: "Dove Men+Care Thick & Strong 2in1 Shampoo+Conditioner, 340 ml"
+    name:"Tresemme Shampoo, 340 ml",
+    image: require('./assets/images/ProductImages/Images2/shampoo/treseme.jpeg'),
+    description: "Tresemme Shampoo"
 },
 {
     id:5,
-    name:"Naturali Dandruff Defence Shampoo ",
-    image: require('./assets/images/ProductImages/Images2/shampoo/Naturali Dandruff Defence Shampoo with Tea Tree Oil & Cactus Extracts  Prevents Dandruff  Paraben and Sulphate Free Shampoo  Anti Dandruff Shampoo  340 ml.webp'),
+    name:"Mamaearth Onion Shampoo ",
+    image: require('./assets/images/ProductImages/Images2/shampoo/onion-shampoo3.avif'),
     description: "Naturali Dandruff Defence Shampoo"
 },
 {
     id:6,
-    name:"Khadi Natural Amla & Bhringraj Shampoo/Cleanser ",
-    image: require('./assets/images/ProductImages/Images2/shampoo/The Skin Story Anti Dandruff Shampoo with Saniscalp & Argan Oil 3-in-1 Cleansing, Dandruff Control, Moisturizes for Shiny, Silky Hair Paraben Free 190ml.webp'),
-    description:"Khadi Natural Amla & Bhringraj Shampoo"
+    name:"Head and Shoulder ",
+    image: require('./assets/images/ProductImages/Images2/shampoo/head and shoulder.jpg'),
+    description:"Head and Shoulder"
 },
 {
     id:7,
@@ -273,18 +273,12 @@ const conditioner=[
 },
 {
     id:3,
-    name:"The Skin Story Keratin Smooth Hair Conditioner",
-    image: require('./assets/images/ProductImages/Images2/conditioner/The Skin Story Keratin Smooth Hair Conditioner for Repair Split End & Damage Hair, Long Lasting Shine for Frizzy Dry, Silky Hair with Argan Oil Sulphate Free 250g.webp'),
-    description: "The Skin Story Keratin Smooth Hair Conditioner"
-},
-{
-    id:4,
     name:"Pilgrim Anti Hairfall Conditioner",
     image: require('./assets/images/ProductImages/Images2/conditioner/Pilgrim Spanish Rosemary & Biotin Anti Hairfall Conditioner.jpg'),
     description: "Pilgrim Spanish Rosemary & Biotin Anti Hairfall Conditioner"
 },
 {
-    id:5,
+    id:4,
     name:"Avocado & Argan Frizz Control Conditioner",
     image: require('./assets/images/ProductImages/Images2/conditioner/Avocado & Argan Frizz Control Conditioner I.jpg'),
     description: "Avocado & Argan Frizz Control Conditioner"
